@@ -6,9 +6,9 @@ smtpobj = smtplib.SMTP('smtp.gmail.com', 587)
 
 # start TLS for security which makes the connection more secure
 smtpobj.starttls()
-senderemail_id="harshthakare732001@gmail.com"
-senderemail_id_password="harshal7777777"
-receiveremail_id="harshthakare70@gmail.com"
+senderemail_id="sender@gmail.com"
+senderemail_id_password="********"
+receiveremail_id="receiver@gmail.com"
 
 # Authentication for signing to gmail account
 smtpobj.login(senderemail_id, senderemail_id_password)
